@@ -530,6 +530,79 @@ hr{
 /* team */
 
 
+.tc-card-prez{
+  text-align: center;
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.tc-card-prez img{
+  box-shadow: 1px 1px 10px #000000;
+  margin: 20px 20px;
+}
+.tc-card-prez h1{
+  font-size: 1.7rem;
+  font-weight: 600;
+  color:#FFFFFF;
+  text-align: center;
+  margin: 20px 20px;
+}
+.tc-card-prez p{
+  color:#E0E6ED;
+  font-size: 1.2rem;
+  text-align: center;
+}
+.tc-card-prez li{
+  display: inline-block;
+  margin: 0.8em;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 1.2em;
+}
+.tc-card-prez i{
+  color: #FFFFFF;
+}
+
+.tc-card{
+  text-align: center;
+  width: 30%;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.tc-card img{
+  box-shadow: 1px 1px 10px #000000;
+  margin: 20px 20px;
+}
+.tc-card h1{
+  font-size: 1.7rem;
+  font-weight: 600;
+  color:#FFFFFF;
+  text-align: center;
+  margin: 20px 20px;
+}
+.tc-card p{
+  color:#E0E6ED;
+  font-size: 1.2rem;
+  text-align: center;
+}
+.tc-card li{
+  display: inline-block;
+  margin: 0.8em;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 1.2em;
+}
+.tc-card i{
+  color: #FFFFFF;
+}
+
+
+
+
+
+
 
 
 
@@ -607,6 +680,9 @@ hr{
   color:#E0E6ED;
   font-size: 1rem;
 }
+
+
+
 
 
 

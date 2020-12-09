@@ -17,6 +17,18 @@ app.get("/",function(req,res){
   res.render("home");
 });
 
+app.get("/events",function(req,res){
+  res.render("events");
+});
+
+app.get("/projects",function(req,res){
+  res.render("projects");
+});
+
+app.get("/teams",function(req,res){
+  res.render("team");
+});
+
 
 const PORT=process.env.PORT || 3000;
 app.listen(PORT,function(){

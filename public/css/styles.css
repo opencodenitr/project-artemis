@@ -541,6 +541,8 @@ hr{
 .tc-card-prez img{
   box-shadow: 1px 1px 10px #000000;
   margin: 20px 20px;
+  width: 60%;
+  height: 50%;
 }
 .tc-card-prez h1{
   font-size: 1.7rem;
@@ -574,6 +576,8 @@ hr{
 .tc-card img{
   box-shadow: 1px 1px 10px #000000;
   margin: 20px 20px;
+  width: 60%;
+  height: 50%;
 }
 .tc-card h1{
   font-size: 1.7rem;
@@ -917,9 +921,11 @@ hr{
   .tc-card-prez img{
     box-shadow: 1px 1px 10px #000000;
     margin: 10px 10px;
+    width: auto;
+    height: auto;
   }
   .tc-card-prez h1{
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     font-weight: 600;
     color:#FFFFFF;
     text-align: center;
@@ -952,9 +958,11 @@ hr{
   .tc-card img{
     box-shadow: 1px 1px 10px #000000;
     margin: 10px 10px;
+    width: auto;
+    height: auto;
   }
   .tc-card h1{
-    font-size: 1.4rem;
+    font-size: 1.1rem;
     font-weight: 600;
     color:#FFFFFF;
     text-align: center;

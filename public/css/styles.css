@@ -666,6 +666,7 @@ hr{
 .contact-right{
   text-align: center;
   padding-right: 17%;
+  align: center;
 }
 .contact-left{
   text-align: left;
@@ -999,6 +1000,11 @@ hr{
     margin: 10px 10px;
     margin-left: 5px;
     margin-right: 5px;
+  }
+  .contact-right{
+    text-align: center;
+    align: center;
+    margin-left: 40px;
   }
 }
 

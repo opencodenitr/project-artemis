@@ -760,7 +760,7 @@ button:focus {
 .image-card img{
   width: 100%;
   height: auto;
-  filter: grayscale(50%);
+  filter: grayscale(60%);
   transition: 2s;
 }
 .image-card:hover img{

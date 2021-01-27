@@ -510,7 +510,7 @@ button:focus {
 
 /* team */
 
-.tc-card-prez {
+/* .tc-card-prez {
   text-align: center;
   width: 30%;
   margin-left: auto;
@@ -580,7 +580,7 @@ button:focus {
 }
 .tc-card i {
   color: #ffffff;
-}
+} */
 
 /* contact */
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
@@ -718,20 +718,27 @@ button:focus {
 }
 
 /* team page */
-#team-page {
-  display: flex;
-  align-items: center;
+#team {
   text-align: center;
-  justify-content: center;
-  align-content: center;
-  justify-items: center;
+}
+
+#team-page {
+  text-align: center;
   font-family: 'Montserrat', sans-serif;
+}
+
+#team-page .core-heading {
+  text-align: center;
+  font-weight: 700;
+  color: #fff;
+  padding: 1.5rem 0;
+  margin: 0 auto;
 }
 
 .image-card{
   position: relative;
-  height: 300px;
-  width: 300px;
+  height: 250px;
+  width: 250px;
   overflow: hidden;
   border-radius: 3px;
   transition: all .4s;
@@ -782,6 +789,19 @@ button:focus {
   transform-origin: right;
   transition: all .5s;
 }
+
+.image-card h2{
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+}
+
+.image-card p{
+  margin: 0;
+  padding: 0;
+}
+
 .image-card:hover .details{
   transform: perspective(500px) rotateY(0deg);
 }
